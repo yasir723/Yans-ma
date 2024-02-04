@@ -65,6 +65,11 @@ Metot, başlangıçta verilen ikili ağacın yansıması (mirror image) olarak b
 10. Kök düğümün sağ tarafındaki düğümleri kardeşleriyle yer değiştirdikten sonra son yer değiştirme işlemine ulaşılır.
 11. Son aşamada kökün sol düğümü ve sağ düğümü değiştirildiğinde, sol taraftaki tüm düğümler sağ tarafta, aynı zamanda sağ taraftaki tüm düğümler de sol tarafta olur.
 
+<div align="center">
+    <h3>Metodun çalışma adımları</h3>
+</div>
+
+[![3. durumun adlımları](https://github.com/yasir723/node-ekle/assets/111686779/334b7017-3d42-4650-91da-cc9f9210e108)](https://github.com/yasir723/node-ekle/assets/111686779/c2e70dd6-2238-420f-8b3a-ce00d2c79e2e)
 
 
 
