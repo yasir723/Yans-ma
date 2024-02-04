@@ -69,7 +69,7 @@ Metot, başlangıçta verilen ikili ağacın yansıması (mirror image) olarak b
     <h3>Metodun çalışma adımları</h3>
 </div>
 
-[![3. durumun adlımları](https://github.com/yasir723/node-ekle/assets/111686779/334b7017-3d42-4650-91da-cc9f9210e108)](https://github.com/yasir723/node-ekle/assets/111686779/c2e70dd6-2238-420f-8b3a-ce00d2c79e2e)
+[![Metodun çalışma adımları](https://github.com/yasir723/node-ekle/assets/111686779/334b7017-3d42-4650-91da-cc9f9210e108)](https://github.com/yasir723/node-ekle/assets/111686779/c2e70dd6-2238-420f-8b3a-ce00d2c79e2e)
 
 
 
