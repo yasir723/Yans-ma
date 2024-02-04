@@ -57,7 +57,7 @@ Metot, başlangıçta verilen ikili ağacın yansıması (mirror image) olarak b
 2. Null değilse, sol tarafa gitmeye devam eder ve null bir düğüme ulaşana kadar ilerler.
 3. Sonra sol tarafında sağa gitmeye başlar ve null bir düğüme ulaşana kadar devam eder.
 4. Böylece sol tarafında en derin düğüme ulaşmış olur ve bu aşamada yer değiştirme işlemi başlar.
-5. Asıl düşünce, ağacı aşağıdan yukarıya doğru, `her düğümü kardeşiyle değiştirmektir`.
+5. Asıl düşünce, ağacı aşağıdan yukarıya doğru, `her düğümü kardeşiyle yer değiştirmektir`.
 6. Geçici bir değişken kullanarak düğümlerin yerlerini değiştirir.
 7. Değiştirirken değerleri değil, düğümlerin yerlerini değiştirir.
 8. Düğümlerin yer değiştirme işleminin amacı, düğümün alt düğümleriyle birlikte yer değiştirmesini sağlamaktır.
