@@ -53,14 +53,18 @@ Metot, başlangıçta verilen ikili ağacın yansıması (mirror image) olarak b
 
 ## İşleyiş
 
-1. ilk olarak gönderilen ağaç null ise null döndürür.
-2. null değilse sol tarafına gitmeye devam edecek null bir düğüme ulaşana kadar
-3. sonra sol tarafında sağ gitmeye başlar null bir düğüme ulaşana kadar
-4. böylece sol tarafında en derin düğüme ulaşmış olur ve bu aşamada yer değiştirme işlemi başlar
-5. asıl düşünce ağacı aşağıdan başlayarak yukarıya doğru her düğüm kardeşiyle değiştirmektir.
-6. geçici bir değişken kullanarak düğümlerin yerlerini değiştiriyor.
-7. değiştirirken değerleri değil düğümlerin yerlerini değiştirir
-8. düğümlerin yer değiştirme işlemin amacı, düğümün alt düğümleriyle beraber yer değiştirmesini sağlamaktır.
-9. kök düğümün sol tarafın düğümleri kardeşleriyle yer değiştirdikten sonra kökün sol düğümü, kökün sağ düğümü değiştirme işlemi yapılınca sol tarafındaki tüm düğümler sağ tarafında olur, aynı zamanda sağ tarafındaki tüm düğümler sol tarafında olur.
-10. ardından kalan düğümler için 
+1. İlk olarak gönderilen ağaç null ise, null döndürülür.
+2. Null değilse, sol tarafa gitmeye devam eder ve null bir düğüme ulaşana kadar ilerler.
+3. Sonra sol tarafında sağa gitmeye başlar ve null bir düğüme ulaşana kadar devam eder.
+4. Böylece sol tarafında en derin düğüme ulaşmış olur ve bu aşamada yer değiştirme işlemi başlar.
+5. Asıl düşünce, ağacı aşağıdan yukarıya doğru, `her düğümü kardeşiyle değiştirmektir`.
+6. Geçici bir değişken kullanarak düğümlerin yerlerini değiştirir.
+7. Değiştirirken değerleri değil, düğümlerin yerlerini değiştirir.
+8. Düğümlerin yer değiştirme işleminin amacı, düğümün alt düğümleriyle birlikte yer değiştirmesini sağlamaktır.
+9. Kök düğümün sol tarafındaki düğümleri kardeşleriyle yer değiştirdikten sonra, kökün sağ tarafına gidilir ve aynı işlem yapılır.
+10. Kök düğümün sağ tarafındaki düğümleri kardeşleriyle yer değiştirdikten sonra son yer değiştirme işlemine ulaşılır.
+11. Son aşamada kökün sol düğümü ve sağ düğümü değiştirildiğinde, sol taraftaki tüm düğümler sağ tarafta, aynı zamanda sağ taraftaki tüm düğümler de sol tarafta olur.
+
+
+
 
