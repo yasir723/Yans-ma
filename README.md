@@ -3,5 +3,5 @@ Verilen bir ikili ağaçta, ağacı aynalı ağaca dönüştürme görevi vardı
 
 <div align="center">
     <h3>Ağaç</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/18aa3c6b-7b4c-4808-b66b-042d9a9fc53f" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/a51a1c0c-1387-45ab-b199-46afd255d871" width="800">
 </div>
